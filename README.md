@@ -5,7 +5,7 @@
 
 
 # jar-zipgroupfileset-problem-SSCCE
-Demonstrates a problem with the `zipgroupfileset` Ant task that likely
+[SSCCE][sscce] that demonstrates a problem with the `zipgroupfileset` Ant task that likely
 tricks/confuses the [jar][jar] task into rebuilding its target.
 
 ## Description of the problem
@@ -28,4 +28,5 @@ files that are used in the `some-jars` directory:
 * `b.jar` is a rename of `commons-io-2.5.jar`
 * `c.jar` is a rename of `commons-logging-1.2.jar`
 
+[sscce]: http://sscce.org/
 [jar]: https://ant.apache.org/manual/Tasks/jar.html
