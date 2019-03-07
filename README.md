@@ -1,7 +1,7 @@
-
-[//]: # HTML generated from this Markdown file tested with:
-[//]: #
-[//]: #     $ pandoc -f markdown_github -t html README.md > foo.html && c foo.html
+<!--
+    HTML generated from this Markdown file tested with:
+        $ pandoc -f markdown_github -t html README.md > foo.html && c foo.html
+-->        
 
 
 # jar-zipgroupfileset-problem-SSCCE
