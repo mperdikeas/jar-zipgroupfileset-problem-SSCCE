@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="foo"
+         basedir=".">
+
+    <target name="jar1">
+        <jar destfile="out.jar">
+            <zipgroupfileset dir="some-jars">
+                <include name="a.jar" />
+                <include name="b.jar" />
+            </zipgroupfileset>                        
+        </jar>
+    </target>
+
+    <target name="jar2">
+        <jar destfile="out.jar">
+            <zipgroupfileset dir="some-jars">
+                <include name="a.jar" />
+                <include name="b.jar" />
+                <include name="c.jar" />
+            </zipgroupfileset>            
+        </jar>
+    </target>
+
+    <target name="clean">
+        <delete file="out.jar"/>
+    </target>
+</project>
+
