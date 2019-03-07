@@ -8,6 +8,8 @@
 [SSCCE][sscce] that demonstrates a problem with the `zipgroupfileset` Ant task that likely
 tricks/confuses the [jar][jar] task into rebuilding its target.
 
+A bug report was also filed [here][bug-report].
+
 ## Description of the problem
 (tested with Ant 1.9.9)
 
@@ -28,5 +30,6 @@ files that are used in the `some-jars` directory:
 * `b.jar` is a rename of `commons-io-2.5.jar`
 * `c.jar` is a rename of `commons-logging-1.2.jar`
 
+[bug-report]: https://bz.apache.org/bugzilla/show_bug.cgi?id=63243
 [sscce]: http://sscce.org/
 [jar]: https://ant.apache.org/manual/Tasks/jar.html
